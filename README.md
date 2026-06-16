@@ -10,3 +10,9 @@ Build and run:
 cargo build
 cargo run
 ```
+
+Run the message-passing example:
+
+```
+cargo run -- message-passing
+```
