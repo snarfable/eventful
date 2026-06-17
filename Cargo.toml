@@ -1,5 +1,5 @@
 [package]
-name = "sandbox"
+name = "eventful"
 version = "0.1.0"
 edition = "2021"
 authors = ["Ryan P. Daly <ryan.p.daly2@gmail.com>"]

@@ -6,9 +6,11 @@ mod task;
 
 use crate::event::{Event, EventType};
 use crate::examples::message_passing;
-use crate::logger::{Logger, LogLevel, LoggerTask};
+use crate::logger::{LogLevel, Logger, LoggerTask};
 use crate::scheduler::EventScheduler;
-use crate::task::{Task, TaskBehavior, TaskFactory, TaskPausable, TaskShutdown, TaskStartup, TaskState};
+use crate::task::{
+    Task, TaskBehavior, TaskFactory, TaskPausable, TaskShutdown, TaskStartup, TaskState,
+};
 use std::collections::HashMap;
 
 struct PrintTask {

@@ -1,4 +1,4 @@
-# sandbox
+# eventful
 
 A minimal Rust project scaffold with CI via GitHub Actions.
 

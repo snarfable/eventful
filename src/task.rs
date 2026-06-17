@@ -119,10 +119,7 @@ pub trait TaskBehavior {
 pub struct TaskFactory;
 
 impl TaskFactory {
-    pub fn create_task(
-        name: impl Into<String>,
-        event_type: EventType,
-    ) -> Task {
+    pub fn create_task(name: impl Into<String>, event_type: EventType) -> Task {
         Task::new(name, event_type)
     }
 

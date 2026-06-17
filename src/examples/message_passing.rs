@@ -12,11 +12,7 @@ struct MessageTask {
 }
 
 impl MessageTask {
-    fn new(
-        name: impl Into<String>,
-        shared_queue: Weak<Mutex<Vec<Event>>>,
-        logger: Logger,
-    ) -> Self {
+    fn new(name: impl Into<String>, shared_queue: Weak<Mutex<Vec<Event>>>, logger: Logger) -> Self {
         let name = name.into();
         let event_type = EventType::Custom(name.clone());
 
